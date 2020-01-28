@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MiPrimerApp.Calculadora">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                    iOS="5,5,5,5"
+                    Android="5,5,5,5"
+                    WinPhone="0,0,0,0"></OnPlatform>
+    </ContentPage.Padding>
+    <ScrollView>
+        <StackLayout x:Name="background" BackgroundColor="White" >
+            <TableView HeightRequest="1">
+                <TableSection>
+                    <SwitchCell Text="Dark Mode" x:Name="switchBlack" OnChanged="switchBlack_OnChanged" ></SwitchCell>
+                </TableSection>
+            </TableView>
+            <Image Source="calculator.png" HeightRequest="100" WidthRequest="100" />
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <StackLayout WidthRequest="100">
+                    <Entry Placeholder="#1" x:Name="n1" Keyboard="Numeric"  />
+                    <Entry Placeholder="#2" x:Name="n2" Keyboard="Numeric"  />
+                </StackLayout>
+                <Picker Title="Operación" x:Name="Operacion"  SelectedIndexChanged="Operacion_SelectedIndexChanged" VerticalOptions="Center"  HeightRequest="100" />
+            </StackLayout>
+
+            <Button Text="Resultado" x:Name="resultado" Clicked="resultado_Clicked" Margin="90,0,90,0" HeightRequest="50"/>
+            <Label x:Name="lblResultado" HorizontalTextAlignment="Center" FontSize="25" Margin="90,0,90,80" Text="..." HeightRequest="50" />
+            
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

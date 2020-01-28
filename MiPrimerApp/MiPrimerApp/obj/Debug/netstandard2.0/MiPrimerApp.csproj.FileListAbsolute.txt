@@ -1,0 +1,16 @@
+C:\Users\Thalia\source\repos\MiPrimerApp\MiPrimerApp\MiPrimerApp\bin\Debug\netstandard2.0\MiPrimerApp.deps.json
+C:\Users\Thalia\source\repos\MiPrimerApp\MiPrimerApp\MiPrimerApp\bin\Debug\netstandard2.0\MiPrimerApp.dll
+C:\Users\Thalia\source\repos\MiPrimerApp\MiPrimerApp\MiPrimerApp\bin\Debug\netstandard2.0\ref\MiPrimerApp.dll
+C:\Users\Thalia\source\repos\MiPrimerApp\MiPrimerApp\MiPrimerApp\bin\Debug\netstandard2.0\MiPrimerApp.pdb
+C:\Users\Thalia\source\repos\MiPrimerApp\MiPrimerApp\MiPrimerApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Thalia\source\repos\MiPrimerApp\MiPrimerApp\MiPrimerApp\obj\Debug\netstandard2.0\Calculadora.xaml.g.cs
+C:\Users\Thalia\source\repos\MiPrimerApp\MiPrimerApp\MiPrimerApp\obj\Debug\netstandard2.0\Camara.xaml.g.cs
+C:\Users\Thalia\source\repos\MiPrimerApp\MiPrimerApp\MiPrimerApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Thalia\source\repos\MiPrimerApp\MiPrimerApp\MiPrimerApp\obj\Debug\netstandard2.0\Rest.xaml.g.cs
+C:\Users\Thalia\source\repos\MiPrimerApp\MiPrimerApp\MiPrimerApp\obj\Debug\netstandard2.0\MiPrimerApp.AssemblyInfoInputs.cache
+C:\Users\Thalia\source\repos\MiPrimerApp\MiPrimerApp\MiPrimerApp\obj\Debug\netstandard2.0\MiPrimerApp.AssemblyInfo.cs
+C:\Users\Thalia\source\repos\MiPrimerApp\MiPrimerApp\MiPrimerApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Thalia\source\repos\MiPrimerApp\MiPrimerApp\MiPrimerApp\obj\Debug\netstandard2.0\MiPrimerApp.dll
+C:\Users\Thalia\source\repos\MiPrimerApp\MiPrimerApp\MiPrimerApp\obj\Debug\netstandard2.0\ref\MiPrimerApp.dll
+C:\Users\Thalia\source\repos\MiPrimerApp\MiPrimerApp\MiPrimerApp\obj\Debug\netstandard2.0\MiPrimerApp.pdb
+C:\Users\Thalia\source\repos\MiPrimerApp\MiPrimerApp\MiPrimerApp\obj\Debug\netstandard2.0\MiPrimerApp.csprojAssemblyReference.cache
