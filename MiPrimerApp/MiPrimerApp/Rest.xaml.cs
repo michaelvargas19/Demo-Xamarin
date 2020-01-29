@@ -117,5 +117,37 @@ namespace MiPrimerApp
 
 
         }
+
+        private void btnEnviarPut_Clicked(object sender, EventArgs e)
+        {
+            Device.BeginInvokeOnMainThread(async () =>
+            {
+
+                var request = new HttpRequestMessage();
+                request.RequestUri = new Uri("http://dummy.restapiexample.com/api/v1/update/719");
+                request.Method = HttpMethod.Put;
+                request.Headers.Add("Accept", "application/json");
+
+                request.Content = new StringContent(
+                    JsonConvert.SerializeObject(new { name = "test", salary = "1000000", age = "23" }), Encoding.UTF8, "application/json");
+
+                var cliente = new HttpClient();
+
+                HttpResponseMessage responseMessage = await cliente.SendAsync(request);
+
+                if (responseMessage.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    HttpContent content = responseMessage.Content;
+                    var str = await content.ReadAsStringAsync();
+                    JObject json = JObject.Parse(str);
+
+                    lblResponse.Text = json.ToString();
+                }
+                else
+                {
+                    lblResponse.Text = "Error";
+                }
+            });
+        }
     }
 }

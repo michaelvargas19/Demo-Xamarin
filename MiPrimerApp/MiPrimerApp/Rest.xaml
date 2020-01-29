@@ -11,6 +11,7 @@
                 <Button Text="Enviar Get" x:Name="btnEnviarGet" Clicked="btnEnviarGet_Clicked" Margin="5,0,5,0"/>
                 <Button Text="Enviar Post" x:Name="btnEnviarPost" Clicked="btnEnviarPost_Clicked" Margin="5,0,5,0"/>
                 <Button Text="Enviar Post (lista)" x:Name="btnEnviarPostList" Clicked="btnEnviarPostList_Clicked" Margin="5,0,5,0"/>
+                <Button Text="Enviar Put " x:Name="btnEnviarPut" Clicked="btnEnviarPut_Clicked" Margin="5,0,5,0"/>
                 <Label x:Name="lblResponse" Text="" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
                 <ListView  ItemsSource="{Binding Employess}" x:Name="listView">
                     <ListView.ItemTemplate>
